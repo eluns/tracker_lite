@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+Wind:
+  name: WindyKnoll
+  account: WindyKnoll
+  datafeed: project
+
+Hydro:
+  name: RainyLake
+  account: RainyLake
+  datafeed: precip

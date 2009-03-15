@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%=h @issue.name %>
+</p>
+
+<p>
+  <b>Datafeed:</b>
+  <%=h @issue.datafeed %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @issue.description %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%=h @issue.status %>
+</p>
+
+
+<%= link_to 'Edit', edit_issue_path(@issue) %> |
+<%= link_to 'Back', issues_path %>

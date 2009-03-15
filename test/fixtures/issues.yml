@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+Wind:
+  name: stopped
+  datafeed: project
+  description: No data
+  status: active
+
+Hydro:
+  name: missing
+  datafeed: precip
+  description: No data
+  status: deactivated

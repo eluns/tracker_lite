@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @datafeed.name %>
+</p>
+
+<p>
+  <b>Source:</b>
+  <%=h @datafeed.source %>
+</p>
+
+<p>
+  <b>Issue:</b>
+  <%=h @datafeed.issue %>
+</p>
+
+
+<%= link_to 'Edit', edit_datafeed_path(@datafeed) %> |
+<%= link_to 'Back', datafeeds_path %>

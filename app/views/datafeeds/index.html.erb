@@ -1,0 +1,24 @@
+<h1>Listing datafeeds</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Source</th>
+    <th>Issue</th>
+  </tr>
+
+<% for datafeed in @datafeeds %>
+  <tr>
+    <td><%=h datafeed.name %></td>
+    <td><%=h datafeed.source %></td>
+    <td><%=h datafeed.issue %></td>
+    <td><%= link_to 'Show', datafeed %></td>
+    <td><%= link_to 'Edit', edit_datafeed_path(datafeed) %></td>
+    <td><%= link_to 'Destroy', datafeed, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New datafeed', new_datafeed_path %>

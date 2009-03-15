@@ -1,0 +1,2240 @@
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+
+
+Processing AccountsController#create (for 0.0.0.0 at 2009-03-14 22:34:18) [POST]
+  Parameters: {"account"=>{}}
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 12ms (View: 3, DB: 2) | 200 OK [http://test.host/accounts?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-14 22:34:18) [GET]
+  [4;35;1mAccount Load (0.5ms)[0m   [0mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-14 22:34:18) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2009-03-14 22:34:18) [POST]
+  Parameters: {"contact"=>{}}
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://test.host/contacts?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-14 22:34:18) [GET]
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-14 22:34:19) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+
+
+Processing DatafeedsController#create (for 0.0.0.0 at 2009-03-14 22:34:19) [POST]
+  Parameters: {"datafeed"=>{}}
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://test.host/datafeeds?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-14 22:34:19) [GET]
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-14 22:34:19) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+
+
+Processing IssuesController#create (for 0.0.0.0 at 2009-03-14 22:34:19) [POST]
+  Parameters: {"issue"=>{}}
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://test.host/issues?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-14 22:34:19) [GET]
+  [4;35;1mIssue Load (0.4ms)[0m   [0mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-14 22:34:19) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+
+
+Processing SourcesController#create (for 0.0.0.0 at 2009-03-14 22:34:19) [POST]
+  Parameters: {"source"=>{}}
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://test.host/sources?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-14 22:34:19) [GET]
+  [4;35;1mSource Load (0.4ms)[0m   [0mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-14 22:34:19) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+
+
+Processing AccountsController#create (for 0.0.0.0 at 2009-03-14 22:39:24) [POST]
+  Parameters: {"account"=>{}}
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://test.host/accounts?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#destroy (for 0.0.0.0 at 2009-03-14 22:39:24) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mAccount Destroy (0.3ms)[0m   [0mDELETE FROM "accounts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/accounts
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/accounts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-14 22:39:24) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x20e8754>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2009-03-14 22:39:24) [POST]
+  Parameters: {"contact"=>{}}
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 62ms (View: 55, DB: 0) | 200 OK [http://test.host/contacts?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-14 22:39:24) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Destroy (0.3ms)[0m   [0mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.5ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  [4;35;1mContact Load (0.6ms)[0m   [0mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#update (for 0.0.0.0 at 2009-03-14 22:39:24) [PUT]
+  Parameters: {"contact"=>{}, "id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://test.host/contacts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+
+
+Processing DatafeedsController#create (for 0.0.0.0 at 2009-03-14 22:39:24) [POST]
+  Parameters: {"datafeed"=>{}}
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://test.host/datafeeds?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-14 22:39:24) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.3ms)[0m   [0mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-14 22:39:24) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x23179e4>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+
+
+Processing IssuesController#create (for 0.0.0.0 at 2009-03-14 22:39:24) [POST]
+  Parameters: {"issue"=>{}}
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://test.host/issues?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-14 22:39:24) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Destroy (0.3ms)[0m   [0mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  [4;35;1mIssue Load (0.5ms)[0m   [0mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-14 22:39:24) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x2227660>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/issues/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+
+
+Processing SourcesController#create (for 0.0.0.0 at 2009-03-14 22:39:24) [POST]
+  Parameters: {"source"=>{}}
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://test.host/sources?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-14 22:39:24) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+
+
+Processing AccountsController#create (for 0.0.0.0 at 2009-03-14 22:40:19) [POST]
+  Parameters: {"account"=>{}}
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://test.host/accounts?]
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#destroy (for 0.0.0.0 at 2009-03-14 22:40:19) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mAccount Destroy (0.3ms)[0m   [0mDELETE FROM "accounts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/accounts
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/accounts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-14 22:40:19) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-14 22:40:19) [GET]
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-14 22:40:19) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-14 22:40:19) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-14 22:40:19) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x20e8754>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2009-03-14 22:40:19) [POST]
+  Parameters: {"contact"=>{}}
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 60ms (View: 55, DB: 0) | 200 OK [http://test.host/contacts?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-14 22:40:20) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Destroy (0.3ms)[0m   [0mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#update (for 0.0.0.0 at 2009-03-14 22:40:20) [PUT]
+  Parameters: {"contact"=>{}, "id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+
+
+Processing DatafeedsController#create (for 0.0.0.0 at 2009-03-14 22:40:20) [POST]
+  Parameters: {"datafeed"=>{}}
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://test.host/datafeeds?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-14 22:40:20) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.3ms)[0m   [0mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 3ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+  [4;35;1mDatafeed Load (0.5ms)[0m   [0mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-14 22:40:20) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x23179e4>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+
+
+Processing IssuesController#create (for 0.0.0.0 at 2009-03-14 22:40:20) [POST]
+  Parameters: {"issue"=>{}}
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://test.host/issues?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-14 22:40:20) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Destroy (0.3ms)[0m   [0mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+  [4;35;1mIssue Load (0.6ms)[0m   [0mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-14 22:40:20) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x2227660>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+
+
+Processing SourcesController#create (for 0.0.0.0 at 2009-03-14 22:40:20) [POST]
+  Parameters: {"source"=>{}}
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://test.host/sources?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-14 22:40:20) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Destroy (0.3ms)[0m   [0mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+  [4;35;1mSource Load (0.5ms)[0m   [0mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-14 22:40:20) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-14 22:40:20) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x218e58c>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+
+
+Processing AccountsController#create (for 0.0.0.0 at 2009-03-14 22:41:11) [POST]
+  Parameters: {"account"=>{}}
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 9ms (View: 3, DB: 3) | 200 OK [http://test.host/accounts?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#destroy (for 0.0.0.0 at 2009-03-14 22:41:11) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mAccount Destroy (0.3ms)[0m   [0mDELETE FROM "accounts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/accounts
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/accounts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-14 22:41:11) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x20e8754>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2009-03-14 22:41:11) [POST]
+  Parameters: {"contact"=>{}}
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 60ms (View: 55, DB: 0) | 200 OK [http://test.host/contacts?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-14 22:41:11) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Destroy (0.3ms)[0m   [0mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#update (for 0.0.0.0 at 2009-03-14 22:41:11) [PUT]
+  Parameters: {"contact"=>{}, "id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+
+
+Processing DatafeedsController#create (for 0.0.0.0 at 2009-03-14 22:41:11) [POST]
+  Parameters: {"datafeed"=>{}}
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://test.host/datafeeds?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-14 22:41:11) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.3ms)[0m   [0mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 3ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-14 22:41:11) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x23179e4>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+
+
+Processing IssuesController#create (for 0.0.0.0 at 2009-03-14 22:41:11) [POST]
+  Parameters: {"issue"=>{}}
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://test.host/issues?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-14 22:41:11) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Destroy (0.3ms)[0m   [0mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  [4;35;1mIssue Load (0.6ms)[0m   [0mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-14 22:41:11) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x2227660>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+
+
+Processing SourcesController#create (for 0.0.0.0 at 2009-03-14 22:41:11) [POST]
+  Parameters: {"source"=>{}}
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://test.host/sources?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-14 22:41:11) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Destroy (0.3ms)[0m   [0mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+  [4;35;1mSource Load (0.4ms)[0m   [0mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-14 22:41:11) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-14 22:41:12) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-14 22:41:12) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x218e58c>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+
+
+Processing AccountsController#create (for 0.0.0.0 at 2009-03-14 22:43:55) [POST]
+  Parameters: {"account"=>{}}
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 12ms (View: 3, DB: 19) | 200 OK [http://test.host/accounts?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#destroy (for 0.0.0.0 at 2009-03-14 22:43:55) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mAccount Destroy (0.3ms)[0m   [0mDELETE FROM "accounts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/accounts
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/accounts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-14 22:43:55) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x20e8cf4>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2009-03-14 22:43:55) [POST]
+  Parameters: {"contact"=>{}}
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 60ms (View: 55, DB: 0) | 200 OK [http://test.host/contacts?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-14 22:43:55) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Destroy (0.3ms)[0m   [0mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#update (for 0.0.0.0 at 2009-03-14 22:43:55) [PUT]
+  Parameters: {"contact"=>{}, "id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+
+
+Processing DatafeedsController#create (for 0.0.0.0 at 2009-03-14 22:43:55) [POST]
+  Parameters: {"datafeed"=>{}}
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://test.host/datafeeds?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-14 22:43:55) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.3ms)[0m   [0mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-14 22:43:55) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x23185d8>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+
+
+Processing IssuesController#create (for 0.0.0.0 at 2009-03-14 22:43:55) [POST]
+  Parameters: {"issue"=>{}}
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://test.host/issues?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-14 22:43:55) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Destroy (0.3ms)[0m   [0mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  [4;35;1mIssue Load (0.5ms)[0m   [0mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-14 22:43:55) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x2228218>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-14 22:43:55) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Destroy (0.3ms)[0m   [0mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  [4;35;1mSource Load (0.4ms)[0m   [0mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-14 22:43:55) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-14 22:43:55) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x21a63a8>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.7ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#destroy (for 0.0.0.0 at 2009-03-14 22:45:08) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mAccount Destroy (0.4ms)[0m   [0mDELETE FROM "accounts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/accounts
+Completed in 4ms (DB: 4) | 302 Found [http://test.host/accounts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-14 22:45:08) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x213179c>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-14 22:45:08) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Destroy (0.3ms)[0m   [0mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 4ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 4ms (View: 4, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#update (for 0.0.0.0 at 2009-03-14 22:45:08) [PUT]
+  Parameters: {"contact"=>{}, "id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 71ms (View: 62, DB: 1) | 200 OK [http://test.host/contacts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-14 22:45:08) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.3ms)[0m   [0mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-14 22:45:08) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x2375d78>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-14 22:45:08) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Destroy (0.3ms)[0m   [0mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 4ms (View: 4, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  [4;35;1mIssue Load (0.4ms)[0m   [0mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-14 22:45:08) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x23170e8>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/issues/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-14 22:45:08) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Destroy (0.3ms)[0m   [0mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  [4;35;1mSource Load (0.4ms)[0m   [0mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-14 22:45:08) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/68354954]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-14 22:45:08) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x2261aa4>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#destroy (for 0.0.0.0 at 2009-03-14 22:46:12) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mAccount Destroy (0.3ms)[0m   [0mDELETE FROM "accounts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/accounts
+Completed in 4ms (DB: 3) | 302 Found [http://test.host/accounts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.5ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  [4;35;1mAccount Load (0.5ms)[0m   [0mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-14 22:46:12) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x213179c>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-14 22:46:12) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Destroy (0.3ms)[0m   [0mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#update (for 0.0.0.0 at 2009-03-14 22:46:12) [PUT]
+  Parameters: {"contact"=>{}, "id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 60ms (View: 57, DB: 1) | 200 OK [http://test.host/contacts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-14 22:46:12) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.3ms)[0m   [0mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.5ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 6ms (View: 5, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-14 22:46:12) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x2375d78>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-14 22:46:12) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Destroy (0.3ms)[0m   [0mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.7ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 6ms (View: 5, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  [4;35;1mIssue Load (0.5ms)[0m   [0mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-14 22:46:12) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x23170e8>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-14 22:46:12) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Destroy (0.3ms)[0m   [0mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  [4;35;1mSource Load (0.4ms)[0m   [0mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-14 22:46:12) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/68354954]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-14 22:46:12) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x2261aa4>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#destroy (for 0.0.0.0 at 2009-03-14 22:46:48) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mAccount Destroy (0.2ms)[0m   [0mDELETE FROM "accounts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/accounts
+Completed in 3ms (DB: 3) | 302 Found [http://test.host/accounts/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-14 22:46:48) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x2131d00>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-14 22:46:48) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Destroy (0.4ms)[0m   [0mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 4ms (View: 4, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-14 22:46:48) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.3ms)[0m   [0mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-14 22:46:48) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x23f9bc8>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-14 22:46:48) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Destroy (0.3ms)[0m   [0mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.6ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  [4;35;1mIssue Load (0.6ms)[0m   [0mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-14 22:46:48) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x235f640>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-14 22:46:48) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Destroy (0.3ms)[0m   [0mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  [4;35;1mSource Load (0.4ms)[0m   [0mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-14 22:46:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/68354954]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-14 22:46:48) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x23048d0>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#destroy (for 0.0.0.0 at 2009-03-14 22:56:50) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mAccount Destroy (0.3ms)[0m   [0mDELETE FROM "accounts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/accounts
+Completed in 4ms (DB: 4) | 302 Found [http://test.host/accounts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  [4;35;1mAccount Load (0.5ms)[0m   [0mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-14 22:56:50) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x2131d00>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-14 22:56:50) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Destroy (0.3ms)[0m   [0mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.5ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  [4;35;1mContact Load (0.5ms)[0m   [0mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-14 22:56:50) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.3ms)[0m   [0mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.5ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-14 22:56:50) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x23f9bc8>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-14 22:56:50) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Destroy (0.3ms)[0m   [0mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 4ms (View: 4, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  [4;35;1mIssue Load (0.5ms)[0m   [0mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-14 22:56:50) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x235f640>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-14 22:56:50) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Destroy (0.3ms)[0m   [0mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.4ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 6ms (View: 5, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  [4;35;1mSource Load (0.6ms)[0m   [0mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-14 22:56:50) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-14 22:56:50) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x23048d0>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/sources/68354954?]

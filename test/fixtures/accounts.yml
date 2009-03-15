@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+Wind:
+  name: Wind
+  source: WindyKnoll
+
+Hydro:
+  name: Rain
+  source: RainyLake

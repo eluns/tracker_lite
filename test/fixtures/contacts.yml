@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+Wind:
+  account: Wind
+  source: WindyKnoll
+  email: bob@windknoll
+  phone: 555-555-5555
+
+Hydro:
+  account: Hydro
+  source: RainyLake
+  email: tom@rainylake
+  phone: 333-333-3333

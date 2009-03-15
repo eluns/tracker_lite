@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @source.name %>
+</p>
+
+<p>
+  <b>Account:</b>
+  <%=h @source.account %>
+</p>
+
+<p>
+  <b>Datafeed:</b>
+  <%=h @source.datafeed %>
+</p>
+
+
+<%= link_to 'Edit', edit_source_path(@source) %> |
+<%= link_to 'Back', sources_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+Wind:
+  name: project
+  source: WindyKnoll
+  issue: stopped
+
+Hydro:
+  name: precip
+  source: RainyLake
+  issue: missing
