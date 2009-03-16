@@ -2,23 +2,32 @@ require 'test_helper'
 
 class IssueTest < ActiveSupport::TestCase
   test "validates presence of name" do
-    issue = issue(:Wind)
-    issue.name = nil
-    assert ! issue.valid?
-    assert issue.errors.on(:name)
+    issues = issues(:Wind)
+    issues.name = nil
+    assert ! issues.valid?
+    assert issues.errors.on(:name)
   end
   
   test "validates presence of datafeed" do
-    issue = issue(:Wind)
-    issue.datafeed = nil
-    assert ! issue.valid?
-    assert issue.errors.on(:datafeed)
+    issues = issues(:Wind)
+    issues.datafeed = nil
+    assert ! issues.valid?
+    assert issues.errors.on(:datafeed)
   end
     
-  test "validates presence of name" do
-    issue = issue(:Wind)
-    issue.status = nil
-    assert ! issue.valid?
-    assert issue.errors.on(:status)
+  test "validates presence of status" do
+    issues = issues(:Wind)
+    issues.status = nil
+    assert ! issues.valid?
+    assert issues.errors.on(:status)
   end
+  
+  test "have a source" do
+  	assert issues(:Wind).sources, "should have a source"
+  end  
+  
+  test "has many datafeeds" do
+  	assert issues(:Wind).datafeeds, "should have datafeeds"
+  end
+
 end

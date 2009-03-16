@@ -1,0 +1,500 @@
+    9  rake test
+   10  sqlite3 db/development.sqlite3 
+   11  ls db/
+   12  rm db/development.sqlite3 
+   13  rake db:migrate
+   14  ruby script/generate add_location_id_and_group_id_to_events
+   15  ruby script/generate migration add_location_id_and_group_id_to_events
+   16  echo $PATH
+   17  cp ~/Downloads/MacVim-7_2-stable-1_2/mvim /usr/local/bin
+   18  sudo cp ~/Downloads/MacVim-7_2-stable-1_2/mvim /usr/local/bin
+   19  mvim
+   20  /usr/local/bin 
+   21  sudo rm /usr/local/bin 
+   22  sudo mkdir /usr/local/bin
+   23  echo $PATH
+   24  sudo cp ~/Downloads/MacVim-7_2-stable-1_2/mvim /usr/local/bin
+   25  mvim
+   26  rake db:migrate
+   27  rake test
+   28  rake test
+   29  mvim
+   30  mvim
+   31  sqlite3 db/development.sqlite3 
+   32  rake test:functionals
+   33  rake test:functionals
+   34  rake test:functionals
+   35  rake test:functionals
+   36  rake test:functionals
+   37  rake test:functionals
+   38  rake test:functionals
+   39  rake test:functionals
+   40  rake test:functionals
+   41  rake test:functionals
+   42  rake test:functionals
+   43  rake test:functionals
+   44  rake test:functionals
+   45  rake test:functionals
+   46  rake test:functionals
+   47  rake test:functionals
+   48  rake test:functionals
+   49  rake test:functionals
+   50  rake test:functionals
+   51  exit
+   52  cd rails/rubyholic/
+   53  script/server
+   54  cs rails/rubyholic/
+   55  rake tests
+   56  rake 
+   57  rake test:functionals
+   58  rake test:functionals
+   59  pwd
+   60  cd rails/rubyholic/
+   61  rake test:functionals
+   62  ls
+   63  cd rubyholic/
+   64  ls
+   65  cd rubyholic/
+   66  ls
+   67  cd ..
+   68  rm -r rubyholic/
+   69  pwd
+   70  git init
+   71  touch README
+   72  git add README
+   73  git commit -m 'first commit'
+   74   git remote add origin git@github.com:eluns/rubyholic.git
+   75  git push origin master
+   76  cd ls
+   77  ls
+   78  pwd
+   79  cd 
+   80  ls
+   81  cd rails/rubyholic/
+   82  ls
+   83  mv * /Users/lunsford_elizabeth/rubyholic
+   84  ls
+   85  cd ..
+   86  ls
+   87  cd ..
+   88  cd ..
+   89  ls
+   90  cd lunsford_elizabeth/
+   91  ls
+   92  cd rubyholic/
+   93  ls
+   94  git add .
+   95  git commit -m 'added sort test'
+   96  git push
+   97  ls
+   98  rake test
+   99  exit
+  100  cd rubyholic/
+  101  rake test
+  102  man say
+  103  say 'I love you'
+  104  say 'what are you looking at'
+  105  say 'don't give me any back talk'
+  106  q
+  107  say 'rub my feet'
+  108  say ' I say what I want to say'
+  109  say 'don/'t give me any back talk'
+  110  say 'don\'t give me any back talk'
+  111  ;
+  112  man say
+  113  say 'that not nice'
+  114  man say
+  115  man -v.methods
+  116  say -v girl 'that not nice'
+  117  say 'we are dorks'
+  118  rake test
+  119  rake test
+  120  rake test
+  121  pwd
+  122  pwd
+  123  rake test
+  124  rake test
+  125  rake test
+  126  rake test
+  127  rake test
+  128  rake test
+  129  clear
+  130  rake test
+  131  rake test
+  132  rake test
+  133  clear
+  134  clear
+  135  rake test
+  136  git add .
+  137  git commit -m 'homework 8'
+  138  git push
+  139  rake db:migrate
+  140  rake db:migrate
+  141  history
+  142  rake db:migrate
+  143  rake db:migrate
+  144  rake db:migrate
+  145  rake test
+  146  rake test
+  147  rake test
+  148  ruby script/generate migration change_time_columns
+  149  rake db:migrate
+  150  rake db:migrate
+  151  rake db:migrate
+  152  rake db:migrate VERSION=20090308045201
+  153  rake test
+  154  rake db:migrate
+  155  rake db:migrate:redo
+  156  rake db:migrate
+  157  rake db:migrate:redo
+  158  ls
+  159  cd db
+  160  ls
+  161  cd migrate/
+  162  ls
+  163  rm 20090308045201_change_time_columns.rb 
+  164  ruby script/generate migration change_time_columns
+  165  cd ..
+  166  cd ..
+  167  pwd
+  168  ruby script/generate migration change_time_columns
+  169  rake db:migrate
+  170  rake db:migrate
+  171  rake test
+  172  ruby script/generate migration change_starttime_columns
+  173  rake test
+  174  rake db:migrate
+  175  rake test
+  176  rake test
+  177  rake test
+  178  rake test
+  179  rake test
+  180  rake test
+  181  rake test
+  182  clear
+  183  rake test
+  184  cd rubyholic/
+  185  ls
+  186  ruby script/server
+  187  ruby script/server
+  188  ruby script/server
+  189  ruby script/server
+  190  exit
+  191  cd rubyholic/
+  192  la
+  193  ls
+  194  rake test
+  195  clear
+  196  rake test
+  197  rake test
+  198  rake test
+  199  rake test
+  200  rake test
+  201  rake test
+  202  rake test
+  203  rake test
+  204  git add .
+  205  git commit -m 'Homework 8'
+  206  git push
+  207  ruby script/server
+  208  cd rubyholic/
+  209  ruby script/server
+  210  ftp ftp.3tiergroup.com
+  211  ftp ftp.3tiergroup.com
+  212  ftp ftp.3tiergroup.com
+  213  ftp ftp.3tiergroup.com
+  214  exit
+  215  cd rubyholic/
+  216  ls
+  217  rake test
+  218  rake test
+  219  git add .
+  220  git commit -m 'Week 8 homework'
+  221  git push
+  222  sudo gem install macports
+  223  mancports
+  224  macports
+  225  which 'macports'
+  226  sudo install macports
+  227  sudo gem install ports
+  228  sudo gem install port
+  229  sudo  install port
+  230  sudo port install mysql5 +server 
+  231  exit
+  232  sudo port install mysql5 +server 
+  233  mysql
+  234  ps
+  235  ps -f
+  236  ps -f
+  237  man port
+  238  sudo port -v selfupdate
+  239  sudo port install mysql5 +server
+  240  sudo mysql_install_db5 --user=mysql
+  241  sudo launchctl load -w \ 
+  242   /Library/LaunchDaemons/org.macports.mysql5.plist 
+  243  sudo launchctl load -w Library/LaunchDaemons/org.macports.mysql5.plist
+  244  sudo launchctl load -w Library/LaunchDaemons/org.macports.mysql5.plist
+  245  mysql
+  246  mysql5
+  247  sudo launchctl load -w /Library/LaunchDaemons/org.macports.mysql5.plist
+  248  sudo gem install mysql -- --with-mysql-include=/opt/local/include/mysql5\ --with-mysql-lib=/opt/local/lib/mysql5 \ 
+  249  sudo gem install mysql -- --with-mysql-include=/opt/local/include/mysql5\ --with-mysql-lib=/opt/local/lib/mysql5 \ --with-mysql-config= \ /opt/local/lib/mysql5/bin/mysql_config
+  250  mysql
+  251  man mysql
+  252  sudo -u mysql mysql_install_db5
+  253  mysql
+  254  sudo -u mysql mysql_install_db5
+  255  man mysql
+  256  mysql -u beth
+  257  sudo -u mysql mysql_install_db5 > read.txt
+  258  ls
+  259  more read.txt 
+  260  mysqld
+  261  /opt/local/lib/mysql5/bin/mysql_secure_installation
+  262  mysql
+  263  mysql -u root
+  264  man mysql
+  265  mysql --u root
+  266  man mysql
+  267  exit
+  268  mysql
+  269  cd
+  270  exit
+  271  mysql
+  272  mysql
+  273  pwd
+  274  cd ..
+  275  cd ..
+  276  ls
+  277  cd cd bin/
+  278  ls
+  279  mysql
+  280  ls
+  281  cd opt/local/
+  282  ls
+  283  cd bin/
+  284  ls
+  285  cd
+  286  ls
+  287  nano
+  288  nano .profile 
+  289  nano .profile 
+  290  echo $PATH
+  291  mysql
+  292  mysql
+  293  cd /opt/local/bin/
+  294  ls -al
+  295  ls -al mysql*
+  296  ls -al mysql
+  297  sudo ln -s /opt/local/lib/mysql5/bin/mysql .
+  298  mysql
+  299  exit
+  300  cd rails/depot/
+  301  ls
+  302  script/server
+  303  pwd
+  304  script/server
+  305  script/server
+  306  cd rubyholic/
+  307  script/server
+  308  cd tracker_lite/
+  309  ruby script/generate migration add_name_to_contact name:string
+  310  rake db:migrate
+  311  cd ..
+  312  ls
+  313  rm -r tracker_lite/
+  314  script/server
+  315  cd tracker_lite/
+  316  script/server
+  317  mkdir tracker
+  318  cd tracker
+  319  pwd
+  320  rails tracker
+  321  ls
+  322  rm -r tracker
+  323  ls
+  324  cd ..
+  325  ls
+  326  rm tracker/
+  327  rails tracker
+  328  cd tracker/
+  329  ls
+  330  mysqladmin -u root create tracker_issues
+  331  mysql -u root create tracker_issues
+  332  mysql
+  333  history > history.txt
+  334  more history.txt 
+  335  more history.txt 
+  336  mysql -u beth create tracker_issues
+  337  mysql -u beth
+  338  more history.txt 
+  339  /opt/local/lib/mysql5/bin/mysql_secure_installation
+  340  mysql 
+  341  mysql
+  342  /opt/local/lib/mysql5/bin/mysql_secure_installation
+  343  mysql
+  344  mysql -p
+  345  mysql -p
+  346  mysql -p
+  347  /opt/local/lib/mysql5/bin/mysql_secure_installation
+  348  mysql
+  349  mysql -u root -p
+  350  mysqladmin -u root create tracker_issues
+  351  ls
+  352  rm history.txt 
+  353  ls
+  354  cd ..
+  355  rm -r tracker/
+  356  rails --database=mysql tracker
+  357  cd tracker/
+  358  ls
+  359  mysql -u root -p tracker
+  360  rake db:migrate
+  361  pwd
+  362  ruby script/generate scaffold account name:string source:string
+  363  ruby script/generate scaffold source name:string account:string datafeed:string
+  364  ruby script/generate scaffold datafeed name:string source:string issue:string
+  365  ruby script/generate scaffold issue name:string datafeed:string description:text status:string
+  366  ruby script/generate scaffold contact account:string source:string email:string phone:string
+  367  rake db:migrate
+  368  mysql -u root -p 
+  369  mysql -u root -p 
+  370  rake db:migrate
+  371  install gem mysql
+  372  history
+  373  sudo gem install mysql
+  374  rake db:migrate
+  375  mysq;
+  376  mysql
+  377  mysql -u root -p
+  378  ls
+  379  cd ..
+  380  ls
+  381  rm -r tracker/
+  382  rails --database=mysql tracker
+  383  cd tracker/
+  384  rake db:migrate
+  385  which mysql
+  386  cd /opt/local/bin/mysql
+  387  cd 
+  388  cd /opt/local/bin/mysql
+  389  cd ..
+  390  cd ..
+  391  cd /opt/local/bin/mysql
+  392  ls
+  393  cd /opt/local/bin/
+  394  ls
+  395  cd
+  396  cd tracker/
+  397  ls
+  398  rake db:migrate
+  399  ls
+  400  cd ..
+  401  rm -r tracker/
+  402  rails --database=mysql5 tracker
+  403  rails --database=mysql tracker
+  404  mysql -u root -p
+  405  pwd
+  406  cd tracker/
+  407  rake db:migrate
+  408  mysql
+  409  mysql -u root -p
+  410  pwd
+  411  cd ..
+  412  rm -r tracker/
+  413  rails --database=mysql tracker
+  414  cd tracker/
+  415  ruby script/generate scaffold account name:string source:string
+  416  rake db:migraterails --database=mysql tracker
+  417  gem install mysql
+  418  rake db:migrate
+  419  sudo gem install mysql -- --with-mysql-dir=/usr/local/mysql
+  420  ls
+  421  cd ..
+  422  ls
+  423  rm -r tracker/
+  424  rails tracker_lite
+  425  ruby script/generate scaffold account name:string source:string
+  426  cd tracker_lite/
+  427  ruby script/generate scaffold account name:string source:string
+  428  ruby script/generate scaffold source name:string account:string datafeed:string
+  429  ruby script/generate scaffold datafeed name:string source:string issue:string
+  430  ruby script/generate scaffold issue name:string datafeed:string description:text status:string
+  431  ruby script/generate scaffold contact account:string source:string email:string phone:string
+  432  rake db:migrate
+  433  ruby script/server
+  434  ruby script/server
+  435  rails tracker_lite
+  436  ruby script/generate scaffold account name:string source:string
+  437  la
+  438  l
+  439  ls
+  440  pwd
+  441  ruby script/generate scaffold account name:string source:string
+  442  pwd
+  443  ruby script/generate scaffold account name:string source:string
+  444  ls
+  445  cd ..
+  446  ls
+  447  rails tracker_lite
+  448  cd tracker_lite/
+  449  ruby script/generate scaffold account name:string source:string
+  450  ruby script/generate scaffold source name:string account:string datafeed:string
+  451  ruby script/generate scaffold datafeed name:string source:string issue:string
+  452  ruby script/generate scaffold issue name:string datafeed:string description:text status:string
+  453  ruby script/generate scaffold contact account:string source:string name:string email:string phone:string
+  454  ls
+  455  pwd
+  456  rake test
+  457  rake db:migrate
+  458  rake test
+  459  ls
+  460  cd test/
+  461  ls
+  462  cd unit/
+  463  ls
+  464  rake test
+  465  rake test
+  466  rake test
+  467  rake test
+  468  rake test
+  469  rake test
+  470  rake test
+  471  rake test
+  472  pwd
+  473  ls
+  474  cd ..
+  475  pwd
+  476  cd ..
+  477  ls
+  478  git commit -m 'first commit'
+  479  git remote add origin git@github.com
+  480   git remote add origin git@github.com:eluns/tracker_lite.git
+  481  ;s
+  482  ls
+  483  pwd
+  484  git commit -m 'first commit'
+  485  git init
+  486  git commit -m 'first commit'
+  487  git remote add origin git@github.com:eluns/tracker_lite.git
+  488  git push origin master
+  489  git push origin master
+  490  git init
+  491  touch README
+  492  git add README
+  493  git commit -m 'first commit'
+  494  git remote add origin git@github.com:eluns/tracker_lite.git
+  495  git push origin master
+  496  ls
+  497  git add .
+  498  git commit -m 'second commit'
+  499  git push
+  500  cd tracker_lite/
+  501  rake test
+  502  rake test
+  503  rake test
+  504  rake unit::test
+  505  rake unit::test
+  506  rake test
+  507  rake test
+  508  history > history.txt

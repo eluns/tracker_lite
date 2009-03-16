@@ -2238,3 +2238,3229 @@ Processing SourcesController#update (for 0.0.0.0 at 2009-03-14 22:56:50) [PUT]
   [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
 Redirected to #<Source:0x23048d0>
 Completed in 2ms (DB: 0) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "accounts" [0m
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#destroy (for 0.0.0.0 at 2009-03-15 17:18:17) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 6ms (View: 5, DB: 4) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-15 17:18:17) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x2130f7c>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-15 17:18:17) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Destroy (0.3ms)[0m   [0mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-15 17:18:17) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.3ms)[0m   [0mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 55ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-15 17:18:17) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x23ea484>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-15 17:18:17) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Destroy (0.3ms)[0m   [0mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  [4;35;1mIssue Load (0.4ms)[0m   [0mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-15 17:18:17) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x23580fc>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/issues/68354954?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-15 17:18:17) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Destroy (0.3ms)[0m   [0mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  [4;35;1mSource Load (0.8ms)[0m   [0mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-15 17:18:17) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/68354954]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-15 17:18:17) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x22f7180>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mAccount Load (0.5ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-15 17:19:38) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 9ms (View: 6, DB: 3) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-15 17:19:38) [GET]
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-15 17:19:38) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-15 17:19:38) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/68354954]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-15 17:19:38) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x213b580>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-15 17:19:38) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Destroy (0.3ms)[0m   [0;1mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-15 17:19:38) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 4ms (View: 4, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-15 17:19:38) [GET]
+  [4;36;1mContact Load (0.5ms)[0m   [0;1mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-15 17:19:38) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-15 17:19:38) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-15 17:19:39) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mDatafeed Destroy (0.3ms)[0m   [0;1mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-15 17:19:39) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (54.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 58ms (View: 3, DB: 55) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-15 17:19:39) [GET]
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-15 17:19:39) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-15 17:19:39) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-15 17:19:39) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x24012b0>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-15 17:19:39) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Destroy (0.3ms)[0m   [0;1mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-15 17:19:39) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 4ms (View: 4, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-15 17:19:39) [GET]
+  [4;36;1mIssue Load (0.5ms)[0m   [0;1mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-15 17:19:39) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-15 17:19:39) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-15 17:19:39) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x2362ad4>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-15 17:19:39) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Destroy (0.3ms)[0m   [0;1mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-15 17:19:39) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-15 17:19:39) [GET]
+  [4;36;1mSource Load (0.4ms)[0m   [0;1mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-15 17:19:39) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-15 17:19:39) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-15 17:19:39) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x2307f58>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 9ms (View: 6, DB: 3) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  [4;36;1mAccount Load (0.5ms)[0m   [0;1mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/68354954]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-15 17:23:06) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x213b580>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-15 17:23:06) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Destroy (0.3ms)[0m   [0;1mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  [4;36;1mContact Load (0.5ms)[0m   [0;1mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-15 17:23:06) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mDatafeed Destroy (0.3ms)[0m   [0;1mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.5ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (57.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 61ms (View: 3, DB: 58) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-15 17:23:06) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x24012b0>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-15 17:23:06) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Destroy (0.3ms)[0m   [0;1mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.5ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 5ms (View: 5, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  [4;36;1mIssue Load (0.4ms)[0m   [0;1mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-15 17:23:06) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x2362ad4>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-15 17:23:06) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Destroy (0.3ms)[0m   [0;1mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.4ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 6ms (View: 5, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  [4;36;1mSource Load (0.6ms)[0m   [0;1mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSource Load (0.4ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-15 17:23:06) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSource Load (0.4ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-15 17:23:06) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x2307f58>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 6ms (View: 4, DB: 3) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/68354954]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-15 17:35:54) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x2139ce4>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-15 17:35:54) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-15 17:35:54) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mDatafeed Destroy (0.3ms)[0m   [0;1mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 55ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-15 17:35:54) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x23ea8a8>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-15 17:35:54) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Destroy (0.3ms)[0m   [0;1mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  [4;36;1mIssue Load (0.4ms)[0m   [0;1mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-15 17:35:54) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x2357d00>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-15 17:35:54) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Destroy (0.3ms)[0m   [0;1mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  [4;36;1mSource Load (0.4ms)[0m   [0;1mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-15 17:35:54) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-15 17:35:54) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x22f5524>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 6ms (View: 4, DB: 3) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/accounts/68354954]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-15 17:37:27) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x2139ce4>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-15 17:37:27) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  [4;36;1mContact Load (0.5ms)[0m   [0;1mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-15 17:37:27) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mDatafeed Destroy (0.3ms)[0m   [0;1mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 55ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-15 17:37:27) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Redirected to #<Datafeed:0x23ea8a8>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/datafeeds/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-15 17:37:27) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Destroy (0.3ms)[0m   [0;1mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  [4;36;1mIssue Load (0.4ms)[0m   [0;1mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-15 17:37:27) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x2357d00>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-15 17:37:27) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Destroy (0.2ms)[0m   [0;1mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.5ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  [4;36;1mSource Load (0.6ms)[0m   [0;1mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-15 17:37:27) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-15 17:37:27) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x22f5524>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (53.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 6ms (View: 4, DB: 3) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/68354954]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-15 17:53:28) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x2138cb8>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-15 17:53:28) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Destroy (0.3ms)[0m   [0;1mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 4ms (View: 4, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  [4;36;1mContact Load (0.5ms)[0m   [0;1mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-15 17:53:28) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mDatafeed Destroy (0.3ms)[0m   [0;1mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 57ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  [4;36;1mDatafeed Load (0.5ms)[0m   [0;1mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mIssue Load (0.1ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 526704169) [0m
+  [4;36;1mIssue Load (0.1ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 443597511) [0m
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mIssue Load (0.1ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-15 17:53:28) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-15 17:53:28) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Destroy (0.3ms)[0m   [0;1mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 4ms (View: 4, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  [4;36;1mIssue Load (0.4ms)[0m   [0;1mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-15 17:53:28) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x2314dfc>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-15 17:53:28) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Destroy (0.3ms)[0m   [0;1mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  [4;36;1mSource Load (0.4ms)[0m   [0;1mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-15 17:53:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-15 17:53:28) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x225ab3c>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (53.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.8ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mAccount Load (0.7ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.8ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.5ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-15 18:27:35) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 6ms (View: 4, DB: 3) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-15 18:27:35) [GET]
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/68354954]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-15 18:27:36) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x2138cb8>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-15 18:27:36) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Destroy (0.2ms)[0m   [0;1mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  [4;36;1mContact Load (0.5ms)[0m   [0;1mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-15 18:27:36) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mDatafeed Destroy (0.3ms)[0m   [0;1mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 56ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 4ms (View: 4, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  [4;36;1mDatafeed Load (0.5ms)[0m   [0;1mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mIssue Load (0.1ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 526704169) [0m
+  [4;36;1mIssue Load (0.1ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 443597511) [0m
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mIssue Load (0.1ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#update (for 0.0.0.0 at 2009-03-15 18:27:36) [PUT]
+  Parameters: {"id"=>"68354954", "datafeed"=>{}}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-15 18:27:36) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Destroy (0.3ms)[0m   [0;1mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 4ms (View: 4, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  [4;36;1mIssue Load (0.4ms)[0m   [0;1mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-15 18:27:36) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x2314dfc>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-15 18:27:36) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Destroy (0.3ms)[0m   [0;1mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  [4;36;1mSource Load (0.4ms)[0m   [0;1mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-15 18:27:36) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-15 18:27:36) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x225ab3c>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mAccount Load (0.7ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 6ms (View: 4, DB: 3) | 200 OK [http://test.host/accounts/68354954/edit]
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/accounts/68354954]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-15 18:28:15) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+Redirected to #<Account:0x213921c>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/accounts/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-15 18:28:15) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Destroy (0.3ms)[0m   [0;1mDELETE FROM "contacts" WHERE "id" = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "contacts" [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  [4;36;1mContact Load (0.5ms)[0m   [0;1mSELECT * FROM "contacts" [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts]
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-15 18:28:15) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mDatafeed Destroy (0.3ms)[0m   [0;1mDELETE FROM "datafeeds" WHERE "id" = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 56ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "datafeeds" [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mIssue Load (0.1ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 526704169) [0m
+  [4;36;1mIssue Load (0.1ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 443597511) [0m
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds]
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mIssue Load (0.1ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-15 18:28:15) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Destroy (0.3ms)[0m   [0;1mDELETE FROM "issues" WHERE "id" = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "issues" [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/issues/68354954/edit]
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  [4;36;1mIssue Load (0.4ms)[0m   [0;1mSELECT * FROM "issues" [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/issues]
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-15 18:28:15) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+Redirected to #<Issue:0x235c29c>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-15 18:28:15) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Destroy (0.3ms)[0m   [0;1mDELETE FROM "sources" WHERE "id" = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "sources" [0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/sources/68354954/edit]
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  [4;36;1mSource Load (0.4ms)[0m   [0;1mSELECT * FROM "sources" [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/sources]
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-15 18:28:15) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-15 18:28:15) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+Redirected to #<Source:0x22fda94>
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/sources/68354954?]

@@ -22,11 +22,6 @@ class DatafeedsControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should update datafeed" do
-    put :update, :id => datafeeds(:Wind).id, :datafeed => { }
-    assert_redirected_to datafeed_path(assigns(:datafeed))
-  end
-
   test "should destroy datafeed" do
     assert_difference('Datafeed.count', -1) do
       delete :destroy, :id => datafeeds(:Wind).id

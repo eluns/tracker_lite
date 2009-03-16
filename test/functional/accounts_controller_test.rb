@@ -27,11 +27,4 @@ class AccountsControllerTest < ActionController::TestCase
     assert_redirected_to account_path(assigns(:account))
   end
 
-  test "should destroy account" do
-    assert_difference('Account.count', -1) do
-      delete :destroy, :id => accounts(:Wind).id
-    end
-
-    assert_redirected_to accounts_path
-  end
 end

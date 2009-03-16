@@ -2,23 +2,28 @@ require 'test_helper'
 
 class ContactTest < ActiveSupport::TestCase
    test "validates presence of name" do
-    contact = contact(:Wind)
-    contact.name = nil
-    assert ! contact.valid?
-    assert contact.errors.on(:name)
+    contacts = contacts(:Wind)
+    contacts.name = nil
+    assert ! contacts.valid?
+    assert contacts.errors.on(:name)
   end
   
    test "validates presence of account" do
-    contact = contact(:Wind)
-    contact.account = nil
-    assert ! contact.valid?
-    assert contact.errors.on(:account)
+    contacts = contacts(:Wind)
+    contacts.account = nil
+    assert ! contacts.valid?
+    assert contacts.errors.on(:account)
   end
   
    test "validates presence of source" do
-    contact = contact(:Wind)
-    contact.source = nil
-    assert ! contact.valid?
-    assert contact.errors.on(:source)
+    contacts = contacts(:Wind)
+    contacts.source = nil
+    assert ! contacts.valid?
+    assert contacts.errors.on(:source)
   end
+  
+#  test "has many accounts" do
+#    assert contacts(:Wind).accounts, "should have account association"
+#  end
+
 end
