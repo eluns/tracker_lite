@@ -2,8 +2,8 @@ class SourcesController < ApplicationController
   # GET /sources
   # GET /sources.xml
   def index
-    @sources = Source.find(:all)
-
+   # @sources = Source.find(:all)
+    @sources = Source.find(:all, :order => "#{params[:order_by]} #{params[:direction]}")
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @sources }

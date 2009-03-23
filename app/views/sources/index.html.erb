@@ -2,6 +2,9 @@
 
 <table>
   <tr>
+    <th><%= link_to 'Name', sources_path(:order_by => 'name', :direction => 'ASC') %></th>
+  </tr>
+  <tr>
     <th>Name</th>
     <th>Account</th>
     <th>Datafeed</th>

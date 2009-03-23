@@ -20,6 +20,6 @@ class DatafeedTest < ActiveSupport::TestCase
   end  
   
   test "has many issues" do
-  	assert datafeeds(:Wind).issue, "should have issues"
+  	assert datafeeds(:Wind).issue, "should have issue"
   end
 end

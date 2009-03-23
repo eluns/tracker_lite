@@ -2,7 +2,7 @@ class DatafeedsController < ApplicationController
   # GET /datafeeds
   # GET /datafeeds.xml
   def index
-    @datafeeds = Datafeed.find(:all)
+    @datafeeds = Datafeed.find(:all, :order => "#{params[:order_by]} #{params[:direction]}")
 
     respond_to do |format|
       format.html # index.html.erb

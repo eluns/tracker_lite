@@ -2,10 +2,10 @@
 
 Wind:
   name: project
-  source: WindyKnoll
-  issue: stopped
+  source: Wind
+  issue: Wind
 
 Hydro:
   name: precip
-  source: RainyLake
-  issue: missing
+  source: Hydro
+  issue: Hydro

@@ -2,11 +2,10 @@ class ContactsController < ApplicationController
   # GET /contacts
   # GET /contacts.xml
   def index
-    @contacts = Contact.find(:all)
-
+    @contacts = Contact.find(:all, :order => "#{params[:order_by]} #{params[:direction]}")
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render :xml => @contacts }
+      format.xml  { render :xml => @contact }
     end
   end
 

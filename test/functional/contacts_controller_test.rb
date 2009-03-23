@@ -29,4 +29,10 @@ class ContactsControllerTest < ActionController::TestCase
 
     assert_redirected_to contacts_path
   end
+  
+  test "order by group name desc" do
+    get :index, :order_by => 'account', :direction => 'desc'
+    assert contact_list = assigns(:contacts)
+    assert_equal contact_list, contact_list.sort_by { |contact| contact.name }.reverse
+  end
 end

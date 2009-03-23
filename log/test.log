@@ -5464,3 +5464,2874 @@ Processing SourcesController#update (for 0.0.0.0 at 2009-03-15 18:28:15) [PUT]
   [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
 Redirected to #<Source:0x22fda94>
 Completed in 2ms (DB: 0) | 302 Found [http://test.host/sources/68354954?]
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.5ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.5ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mAccount Load (0.5ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 68354954) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.1ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 911939578) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.1ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 737936589) [0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM "datafeeds" WHERE ("datafeeds"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM "sources" WHERE ("sources"."id" = 68354954) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (19.1ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 911939578) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 737936589) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 737936589) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 8ms (View: 5, DB: 34) | 200 OK [http://test.host/accounts/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/accounts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-17 20:04:52) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Redirected to #<Account:0x218a784>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/accounts/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-17 20:04:52) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mContact Destroy (0.2ms)[0m   [0;1mDELETE FROM `contacts` WHERE `id` = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 6ms (View: 5, DB: 2) | 200 OK [http://test.host/contacts/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-17 20:04:52) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;36;1mDatafeed Destroy (0.2ms)[0m   [0;1mDELETE FROM `datafeeds` WHERE `id` = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 5ms (View: 4, DB: 2) | 200 OK [http://test.host/datafeeds/68354954/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 737936589) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 911939578) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 526704169) [0m
+  [4;36;1mIssue Load (0.1ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 443597511) [0m
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 737936589) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 911939578) [0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-17 20:04:52) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mIssue Destroy (0.2ms)[0m   [0;1mDELETE FROM `issues` WHERE `id` = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 56ms (View: 56, DB: 2) | 200 OK [http://test.host/issues/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/issues]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-17 20:04:52) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Redirected to #<Issue:0x240b0f8>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-17 20:04:52) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSource Destroy (0.2ms)[0m   [0;1mDELETE FROM `sources` WHERE `id` = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 5ms (View: 4, DB: 2) | 200 OK [http://test.host/sources/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/sources]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-17 20:04:52) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-17 20:04:52) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Redirected to #<Source:0x236e3fc>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 737936589) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 737936589) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 737936589) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 8ms (View: 5, DB: 36) | 200 OK [http://test.host/accounts/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/accounts]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/accounts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-17 20:06:18) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Redirected to #<Account:0x218a784>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/accounts/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-17 20:06:18) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mContact Destroy (0.2ms)[0m   [0;1mDELETE FROM `contacts` WHERE `id` = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 5ms (View: 5, DB: 2) | 200 OK [http://test.host/contacts/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-17 20:06:18) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;36;1mDatafeed Destroy (0.2ms)[0m   [0;1mDELETE FROM `datafeeds` WHERE `id` = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 6ms (View: 5, DB: 2) | 200 OK [http://test.host/datafeeds/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  [4;36;1mDatafeed Load (0.4ms)[0m   [0;1mSELECT * FROM `datafeeds` [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 737936589) [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 526704169) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 869094949) [0m
+Completed in 7ms (View: 5, DB: 2) | 200 OK [http://test.host/datafeeds]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 737936589) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-17 20:06:18) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mIssue Destroy (0.2ms)[0m   [0;1mDELETE FROM `issues` WHERE `id` = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 57ms (View: 56, DB: 2) | 200 OK [http://test.host/issues/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-17 20:06:18) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Redirected to #<Issue:0x24134ec>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-17 20:06:18) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSource Destroy (0.2ms)[0m   [0;1mDELETE FROM `sources` WHERE `id` = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 5ms (View: 4, DB: 2) | 200 OK [http://test.host/sources/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/sources]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-17 20:06:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-17 20:06:18) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Redirected to #<Source:0x2372790>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 466083966) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 466083966) [0m
+  [4;36;1mSource Load (0.1ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 466083966) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 6ms (View: 4, DB: 30) | 200 OK [http://test.host/accounts/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/accounts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-17 20:07:07) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Redirected to #<Account:0x218a784>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/accounts/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-17 20:07:07) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mContact Destroy (0.2ms)[0m   [0;1mDELETE FROM `contacts` WHERE `id` = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 6ms (View: 5, DB: 2) | 200 OK [http://test.host/contacts/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-17 20:07:07) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;36;1mDatafeed Destroy (0.2ms)[0m   [0;1mDELETE FROM `datafeeds` WHERE `id` = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 5ms (View: 4, DB: 2) | 200 OK [http://test.host/datafeeds/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 466083966) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 869094949) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 869094949) [0m
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://test.host/datafeeds]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 466083966) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-17 20:07:07) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mIssue Destroy (0.2ms)[0m   [0;1mDELETE FROM `issues` WHERE `id` = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 56ms (View: 55, DB: 2) | 200 OK [http://test.host/issues/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-17 20:07:07) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Redirected to #<Issue:0x2416cb4>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-17 20:07:07) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSource Destroy (0.2ms)[0m   [0;1mDELETE FROM `sources` WHERE `id` = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 4ms (View: 3, DB: 2) | 200 OK [http://test.host/sources/68354954/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM `sources` [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/sources]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-17 20:07:07) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-17 20:07:07) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Redirected to #<Source:0x2373eec>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 8ms (View: 5, DB: 34) | 200 OK [http://test.host/accounts/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` [0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/accounts]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/accounts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-17 20:07:40) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Redirected to #<Account:0x218a784>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/accounts/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-17 20:07:40) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mContact Destroy (0.2ms)[0m   [0;1mDELETE FROM `contacts` WHERE `id` = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 5ms (View: 5, DB: 2) | 200 OK [http://test.host/contacts/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-17 20:07:40) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;36;1mDatafeed Destroy (0.2ms)[0m   [0;1mDELETE FROM `datafeeds` WHERE `id` = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 5ms (View: 4, DB: 2) | 200 OK [http://test.host/datafeeds/68354954/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 869094949) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 869094949) [0m
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/datafeeds]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-17 20:07:40) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mIssue Destroy (0.2ms)[0m   [0;1mDELETE FROM `issues` WHERE `id` = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-17 20:07:40) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 6ms (View: 5, DB: 2) | 200 OK [http://test.host/issues/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-17 20:07:41) [GET]
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` [0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/issues]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-17 20:07:41) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-17 20:07:41) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-17 20:07:41) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Redirected to #<Issue:0x241abd4>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-17 20:07:41) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSource Destroy (0.2ms)[0m   [0;1mDELETE FROM `sources` WHERE `id` = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-17 20:07:41) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 5ms (View: 4, DB: 2) | 200 OK [http://test.host/sources/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-17 20:07:41) [GET]
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` [0m
+Rendering template within layouts/sources
+Rendering sources/index
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/sources]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-17 20:07:41) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-17 20:07:41) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-17 20:07:41) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Redirected to #<Source:0x237637c>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.5ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-22 23:08:18) [GET]
+  Parameters: {"order_by"=>"name", "direction"=>"desc"}
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM `accounts` ORDER BY name desc[0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 8ms (View: 5, DB: 74) | 200 OK [http://test.host/accounts?direction=desc&order_by=name]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-22 23:08:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/accounts/68354954/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-22 23:08:18) [GET]
+  [4;35;1mAccount Load (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `accounts` ORDER BY [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-22 23:08:18) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-22 23:08:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-22 23:08:18) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Redirected to #<Account:0x247be70>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-22 23:08:18) [GET]
+  Parameters: {"order_by"=>"account", "direction"=>"desc"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` ORDER BY account desc[0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://test.host/contacts?direction=desc&order_by=account]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (16.9ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mContact Load (0.5ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-22 23:08:18) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mContact Destroy (1.8ms)[0m   [0;1mDELETE FROM `contacts` WHERE `id` = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 4ms (DB: 20) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mSQL (5.3ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-22 23:08:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 4ms (View: 3, DB: 6) | 200 OK [http://test.host/contacts/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-22 23:08:18) [GET]
+  [4;36;1mContact Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `contacts` ORDER BY [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-22 23:08:18) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-22 23:08:18) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-22 23:08:18) [GET]
+  Parameters: {"order_by"=>"name", "direction"=>"desc"}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM `datafeeds` ORDER BY name desc[0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 869094949) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 869094949) [0m
+Completed in 8ms (View: 5, DB: 1) | 200 OK [http://test.host/datafeeds?direction=desc&order_by=name]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-22 23:08:19) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.2ms)[0m   [0mDELETE FROM `datafeeds` WHERE `id` = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 3ms (View: 3, DB: 2) | 200 OK [http://test.host/datafeeds/68354954/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+  [4;35;1mDatafeed Load (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `datafeeds` ORDER BY [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+  Parameters: {"order_by"=>"datafeed", "direction"=>"desc"}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` ORDER BY datafeed desc[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://test.host/issues?direction=desc&order_by=datafeed]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-22 23:08:19) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mIssue Destroy (0.2ms)[0m   [0;1mDELETE FROM `issues` WHERE `id` = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 4ms (View: 3, DB: 2) | 200 OK [http://test.host/issues/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+  [4;36;1mIssue Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `issues` ORDER BY [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-22 23:08:19) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Redirected to #<Issue:0x226e7e0>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-22 23:08:19) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.4ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSource Destroy (0.2ms)[0m   [0;1mDELETE FROM `sources` WHERE `id` = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 5ms (View: 4, DB: 2) | 200 OK [http://test.host/sources/68354954/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+  [4;36;1mSource Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `sources` ORDER BY [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-22 23:08:19) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-22 23:08:19) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Redirected to #<Source:0x21e678c>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.4ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"order_by"=>"name", "direction"=>"desc"}
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM `accounts` ORDER BY name desc[0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 10ms (View: 6, DB: 57) | 200 OK [http://test.host/accounts?direction=desc&order_by=name]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/accounts/68354954/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  [4;35;1mAccount Load (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `accounts` ORDER BY [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-22 23:08:48) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Redirected to #<Account:0x247be70>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"order_by"=>"account", "direction"=>"desc"}
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM `contacts` ORDER BY account desc[0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://test.host/contacts?direction=desc&order_by=account]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-22 23:08:48) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mContact Destroy (0.2ms)[0m   [0;1mDELETE FROM `contacts` WHERE `id` = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/contacts/68354954/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  [4;36;1mContact Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `contacts` ORDER BY [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"order_by"=>"name", "direction"=>"desc"}
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM `datafeeds` ORDER BY name desc[0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 869094949) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 869094949) [0m
+Completed in 9ms (View: 5, DB: 2) | 200 OK [http://test.host/datafeeds?direction=desc&order_by=name]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-22 23:08:48) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.2ms)[0m   [0mDELETE FROM `datafeeds` WHERE `id` = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  [4;35;1mDatafeed Load (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `datafeeds` ORDER BY [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"order_by"=>"datafeed", "direction"=>"desc"}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` ORDER BY datafeed desc[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://test.host/issues?direction=desc&order_by=datafeed]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-22 23:08:48) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mIssue Destroy (0.2ms)[0m   [0;1mDELETE FROM `issues` WHERE `id` = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 4ms (View: 3, DB: 2) | 200 OK [http://test.host/issues/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  [4;36;1mIssue Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `issues` ORDER BY [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-22 23:08:48) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Redirected to #<Issue:0x226e7e0>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-22 23:08:48) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSource Destroy (0.2ms)[0m   [0;1mDELETE FROM `sources` WHERE `id` = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 5ms (View: 4, DB: 2) | 200 OK [http://test.host/sources/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  [4;36;1mSource Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `sources` ORDER BY [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-22 23:08:48) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-22 23:08:48) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Redirected to #<Source:0x21e678c>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"order_by"=>"name", "direction"=>"desc"}
+  [4;36;1mAccount Load (0.5ms)[0m   [0;1mSELECT * FROM `accounts` ORDER BY name desc[0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 7ms (View: 4, DB: 31) | 200 OK [http://test.host/accounts?direction=desc&order_by=name]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/accounts/68354954/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  [4;35;1mAccount Load (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `accounts` ORDER BY [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-22 23:14:43) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Redirected to #<Account:0x247c2d0>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"order_by"=>"account", "direction"=>"desc"}
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` ORDER BY account desc[0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://test.host/contacts?direction=desc&order_by=account]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-22 23:14:43) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mContact Destroy (0.2ms)[0m   [0;1mDELETE FROM `contacts` WHERE `id` = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 4ms (View: 3, DB: 2) | 200 OK [http://test.host/contacts/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  [4;36;1mContact Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `contacts` ORDER BY [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"order_by"=>"name", "direction"=>"desc"}
+  [4;35;1mDatafeed Load (0.4ms)[0m   [0mSELECT * FROM `datafeeds` ORDER BY name desc[0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 869094949) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 869094949) [0m
+Completed in 8ms (View: 5, DB: 1) | 200 OK [http://test.host/datafeeds?direction=desc&order_by=name]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-22 23:14:43) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.2ms)[0m   [0mDELETE FROM `datafeeds` WHERE `id` = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds/68354954/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  [4;35;1mDatafeed Load (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `datafeeds` ORDER BY [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"order_by"=>"datafeed", "direction"=>"desc"}
+  [4;36;1mIssue Load (0.4ms)[0m   [0;1mSELECT * FROM `issues` ORDER BY datafeed desc[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://test.host/issues?direction=desc&order_by=datafeed]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-22 23:14:43) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mIssue Destroy (0.2ms)[0m   [0;1mDELETE FROM `issues` WHERE `id` = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 4ms (View: 3, DB: 2) | 200 OK [http://test.host/issues/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  [4;36;1mIssue Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `issues` ORDER BY [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-22 23:14:43) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Redirected to #<Issue:0x226ea74>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-22 23:14:43) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSource Destroy (0.2ms)[0m   [0;1mDELETE FROM `sources` WHERE `id` = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSQL (25.3ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 6ms (View: 5, DB: 26) | 200 OK [http://test.host/sources/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  [4;36;1mSource Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `sources` ORDER BY [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-22 23:14:43) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-22 23:14:43) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Redirected to #<Source:0x21e6aac>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-22 23:18:28) [GET]
+  Parameters: {"order_by"=>"name", "direction"=>"desc"}
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM `accounts` ORDER BY name desc[0m
+Rendering template within layouts/accounts
+Rendering accounts/index
+Completed in 10ms (View: 6, DB: 64) | 200 OK [http://test.host/accounts?direction=desc&order_by=name]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#edit (for 0.0.0.0 at 2009-03-22 23:18:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/edit
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/accounts/68354954/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AccountsController#index (for 0.0.0.0 at 2009-03-22 23:18:28) [GET]
+  [4;35;1mAccount Load (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `accounts` ORDER BY [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AccountsController#new (for 0.0.0.0 at 2009-03-22 23:18:28) [GET]
+Rendering template within layouts/accounts
+Rendering accounts/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/accounts/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#show (for 0.0.0.0 at 2009-03-22 23:18:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mAccount Load (0.2ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Rendering template within layouts/accounts
+Rendering accounts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/accounts/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+
+
+Processing AccountsController#update (for 0.0.0.0 at 2009-03-22 23:18:28) [PUT]
+  Parameters: {"account"=>{}, "id"=>"68354954"}
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 68354954) [0m
+Redirected to #<Account:0x247c2e4>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/accounts/68354954?]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-22 23:18:28) [GET]
+  Parameters: {"order_by"=>"account", "direction"=>"desc"}
+  [4;36;1mContact Load (0.4ms)[0m   [0;1mSELECT * FROM `contacts` ORDER BY account desc[0m
+Rendering template within layouts/contacts
+Rendering contacts/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://test.host/contacts?direction=desc&order_by=account]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#destroy (for 0.0.0.0 at 2009-03-22 23:18:28) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+  [4;36;1mContact Destroy (0.2ms)[0m   [0;1mDELETE FROM `contacts` WHERE `id` = 68354954[0m
+Redirected to http://test.host/contacts
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `contacts` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mContact Load (0.3ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#edit (for 0.0.0.0 at 2009-03-22 23:18:28) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mContact Load (0.3ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/edit
+Completed in 4ms (View: 3, DB: 2) | 200 OK [http://test.host/contacts/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#index (for 0.0.0.0 at 2009-03-22 23:18:28) [GET]
+  [4;36;1mContact Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `contacts` ORDER BY [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+Rendering template within layouts/contacts
+Rendering contacts/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContact Load (0.2ms)[0m   [0mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+
+
+Processing ContactsController#show (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mContact Load (0.2ms)[0m   [0;1mSELECT * FROM `contacts` WHERE (`contacts`.`id` = 68354954) [0m
+Rendering template within layouts/contacts
+Rendering contacts/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+  Parameters: {"order_by"=>"name", "direction"=>"desc"}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM `datafeeds` ORDER BY name desc[0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/index
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 869094949) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 869094949) [0m
+Completed in 8ms (View: 5, DB: 1) | 200 OK [http://test.host/datafeeds?direction=desc&order_by=name]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;35;1mDatafeed Load (0.2ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#destroy (for 0.0.0.0 at 2009-03-22 23:18:29) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+  [4;35;1mDatafeed Destroy (0.2ms)[0m   [0mDELETE FROM `datafeeds` WHERE `id` = 68354954[0m
+Redirected to http://test.host/datafeeds
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `datafeeds` [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#edit (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mDatafeed Load (0.2ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/edit
+Completed in 3ms (View: 3, DB: 2) | 200 OK [http://test.host/datafeeds/68354954/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing DatafeedsController#index (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+  [4;35;1mDatafeed Load (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `datafeeds` ORDER BY [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing DatafeedsController#new (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+Rendering template within layouts/datafeeds
+Rendering datafeeds/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/datafeeds/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mDatafeed Load (0.3ms)[0m   [0;1mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+
+
+Processing DatafeedsController#show (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mDatafeed Load (0.3ms)[0m   [0mSELECT * FROM `datafeeds` WHERE (`datafeeds`.`id` = 68354954) [0m
+Rendering template within layouts/datafeeds
+Rendering datafeeds/show
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.host/datafeeds/68354954]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+  Parameters: {"order_by"=>"datafeed", "direction"=>"desc"}
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` ORDER BY datafeed desc[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://test.host/issues?direction=desc&order_by=datafeed]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#destroy (for 0.0.0.0 at 2009-03-22 23:18:29) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+  [4;36;1mIssue Destroy (0.2ms)[0m   [0;1mDELETE FROM `issues` WHERE `id` = 68354954[0m
+Redirected to http://test.host/issues
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `issues` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.3ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#edit (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mIssue Load (0.3ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/edit
+Completed in 4ms (View: 3, DB: 2) | 200 OK [http://test.host/issues/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing IssuesController#index (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+  [4;36;1mIssue Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `issues` ORDER BY [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing IssuesController#new (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+Rendering template within layouts/issues
+Rendering issues/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/issues/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#show (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Rendering template within layouts/issues
+Rendering issues/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/issues/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (0.2ms)[0m   [0mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+
+
+Processing IssuesController#update (for 0.0.0.0 at 2009-03-22 23:18:29) [PUT]
+  Parameters: {"id"=>"68354954", "issue"=>{}}
+  [4;36;1mIssue Load (0.2ms)[0m   [0;1mSELECT * FROM `issues` WHERE (`issues`.`id` = 68354954) [0m
+Redirected to #<Issue:0x226e894>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/issues/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#destroy (for 0.0.0.0 at 2009-03-22 23:18:29) [DELETE]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+  [4;36;1mSource Destroy (0.2ms)[0m   [0;1mDELETE FROM `sources` WHERE `id` = 68354954[0m
+Redirected to http://test.host/sources
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sources` [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSource Load (0.3ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#edit (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;35;1mSource Load (0.3ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/edit
+Completed in 6ms (View: 5, DB: 2) | 200 OK [http://test.host/sources/68354954/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SourcesController#index (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+  [4;36;1mSource Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1: SELECT * FROM `sources` ORDER BY [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SourcesController#new (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+Rendering template within layouts/sources
+Rendering sources/new
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/sources/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#show (for 0.0.0.0 at 2009-03-22 23:18:29) [GET]
+  Parameters: {"id"=>"68354954"}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Rendering template within layouts/sources
+Rendering sources/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/sources/68354954]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSource Load (0.2ms)[0m   [0mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+
+
+Processing SourcesController#update (for 0.0.0.0 at 2009-03-22 23:18:29) [PUT]
+  Parameters: {"id"=>"68354954", "source"=>{}}
+  [4;36;1mSource Load (0.2ms)[0m   [0;1mSELECT * FROM `sources` WHERE (`sources`.`id` = 68354954) [0m
+Redirected to #<Source:0x21e68f4>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/sources/68354954?]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m

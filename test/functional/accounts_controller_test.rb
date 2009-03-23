@@ -27,4 +27,9 @@ class AccountsControllerTest < ActionController::TestCase
     assert_redirected_to account_path(assigns(:account))
   end
 
+  test "order by account name desc" do
+    get :index, :order_by => 'name', :direction => 'desc'
+    assert account_list = assigns(:accounts)
+    assert_equal account_list, account_list.sort_by { |account| account.name }.reverse
+  end
 end

@@ -2,7 +2,7 @@ class IssuesController < ApplicationController
   # GET /issues
   # GET /issues.xml
   def index
-    @issues = Issue.find(:all)
+    @issues = Issue.find(:all, :order => "#{params[:order_by]} #{params[:direction]}")
 
     respond_to do |format|
       format.html # index.html.erb

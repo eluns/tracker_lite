@@ -21,9 +21,6 @@ class ContactTest < ActiveSupport::TestCase
     assert ! contacts.valid?
     assert contacts.errors.on(:source)
   end
-  
-#  test "has many accounts" do
-#    assert contacts(:Wind).accounts, "should have account association"
-#  end
+
 
 end

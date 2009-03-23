@@ -29,4 +29,10 @@ class DatafeedsControllerTest < ActionController::TestCase
 
     assert_redirected_to datafeeds_path
   end
+   
+  test "order by datafeed name desc" do
+    get :index, :order_by => 'name', :direction => 'desc'
+    assert datafeed_list = assigns(:datafeeds)
+    assert_equal datafeed_list, datafeed_list.sort_by { |datafeed| datafeed.name }.reverse
+  end
 end
