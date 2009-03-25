@@ -1,5 +1,9 @@
 <h1>Listing contacts</h1>
- 
+<%= form_tag('/contacts' , :method => :get) %>
+
+<input type="text" size="40" maxlength="50" name="search"> 
+<input type="submit" name="submit" value="Search">
+<form/>  
 <table>
   <tr>
     <th><%= link_to 'Account', contacts_path(:order_by => 'account', :direction => 'ASC') %></th>
